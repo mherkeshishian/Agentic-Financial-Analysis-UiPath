@@ -1,0 +1,35 @@
+# Python bytecode, caches, builds
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.uipath/
+*.pem
+*.key
+
+# Editors, OS, and temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Local output and real execution results
+outputs/
+private-data/
+execution-results/
