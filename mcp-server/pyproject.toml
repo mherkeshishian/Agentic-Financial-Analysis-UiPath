@@ -1,0 +1,14 @@
+[project]
+name = "agentic-finance-mcp"
+version = "0.1.0"
+description = "Financial market data MCP tools for a UiPath portfolio automation"
+authors = [{name = "Mher Keshishian", email = "mh.keshishian@gmail.com"}]
+requires-python = ">=3.11"
+dependencies = ["mcp>=1.0,<3", "pandas>=2.0,<3", "yfinance>=0.2.40,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
