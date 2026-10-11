@@ -1,0 +1,4 @@
+request_id,symbol,requested_by
+REQ-1001,MSFT,portfolio-demo
+REQ-1002,AAPL,portfolio-demo
+REQ-1003,NVDA,portfolio-demo
