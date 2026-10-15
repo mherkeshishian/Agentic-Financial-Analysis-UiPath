@@ -1,0 +1,4 @@
+UiPath implementation note (not a runnable UiPath Studio project yet):
+Create a Windows REFramework performer in Studio. Read QueueItem.SpecificContent
+for RequestId and Symbol, then map queue status to the TransactionState model.
+Never put API tokens or user financial data in queue item content.
