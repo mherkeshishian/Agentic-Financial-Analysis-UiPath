@@ -1,0 +1,10 @@
+{
+  "queue_name": "Q_FinanceAnalysis",
+  "asset_names": {
+    "mcp_endpoint": "Finance_McpEndpoint",
+    "agent_endpoint": "Finance_AgentEndpoint"
+  },
+  "max_retries": 2,
+  "review_threshold": 0.7,
+  "output_directory": "outputs"
+}
