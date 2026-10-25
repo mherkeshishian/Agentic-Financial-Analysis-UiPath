@@ -1,0 +1,12 @@
+{
+  "queue_specific_content": {
+    "RequestId": "request_id",
+    "Symbol": "symbol"
+  },
+  "agent_input": {
+    "symbol": "Symbol"
+  },
+  "agent_output": "analysis_json",
+  "queue_reference": "RequestId",
+  "note": "Map these fields using Studio activities after publishing the agent."
+}
