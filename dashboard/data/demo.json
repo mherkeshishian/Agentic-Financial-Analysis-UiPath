@@ -1,0 +1,73 @@
+{
+  "mode": "synthetic-demo",
+  "asOf": "2026-11-06",
+  "metrics": {
+    "requests": 120,
+    "completed": 108,
+    "review": 9,
+    "failed": 3
+  },
+  "history": [
+    {
+      "date": "Oct 31",
+      "completed": 14
+    },
+    {
+      "date": "Nov 1",
+      "completed": 18
+    },
+    {
+      "date": "Nov 2",
+      "completed": 16
+    },
+    {
+      "date": "Nov 3",
+      "completed": 21
+    },
+    {
+      "date": "Nov 4",
+      "completed": 19
+    },
+    {
+      "date": "Nov 5",
+      "completed": 20
+    }
+  ],
+  "transactions": [
+    {
+      "id": "REQ-1001",
+      "symbol": "MSFT",
+      "status": "Completed",
+      "trend": "Upward",
+      "confidence": 0.91
+    },
+    {
+      "id": "REQ-1002",
+      "symbol": "AAPL",
+      "status": "Review Required",
+      "trend": "Flat",
+      "confidence": 0.62
+    },
+    {
+      "id": "REQ-1003",
+      "symbol": "NVDA",
+      "status": "Completed",
+      "trend": "Upward",
+      "confidence": 0.87
+    },
+    {
+      "id": "REQ-1004",
+      "symbol": "GOOGL",
+      "status": "Completed",
+      "trend": "Downward",
+      "confidence": 0.81
+    },
+    {
+      "id": "REQ-1005",
+      "symbol": "AMZN",
+      "status": "Failed",
+      "trend": "\u2014",
+      "confidence": null
+    }
+  ]
+}

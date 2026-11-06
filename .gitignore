@@ -33,3 +33,7 @@ Thumbs.db
 outputs/
 private-data/
 execution-results/
+
+# Dashboard dependencies and build artifacts
+node_modules/
+.next/
